@@ -1,0 +1,27 @@
+player1= input("Player 1, Please type in your option: ")
+player2= input("PLayer 2, Please type in your option: ")
+
+if player1 == "Rock" and player2 == "Scissors":
+    print("Player 1 has won!")
+
+if player1 == "Rock" and player2 == "Paper":
+    print("Player 2 has won!")
+
+if player1 == "Paper" and player2=="Rock":
+    print("Player 1 has won!")
+
+if player1 == "Scissors" and player1=="Paper":
+    print("[Player 1 has won!")
+
+
+if player2 =="Rock" and player2 == "Scissors":
+    print("Player 2 has won!")
+
+if player2 == "Paper" and player2=="Rock":
+    print("Player 2 has won!")
+
+if player2 == "Scissors" and player1=="Paper":
+    print("[Player 2 has won!")
+
+if player1 == player2:
+    print("Draw!! Please start again!!")
